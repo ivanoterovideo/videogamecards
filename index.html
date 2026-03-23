@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gacha Collection Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gacha Collection Game</h1>
+    </header>
+    <main>
+        <section id="stats">
+            <h2>Your Stats</h2>
+            <p>Total Characters: <span id="total-characters">0</span></p>
+            <p>Total Gacha Attempts: <span id="total-gacha-attempts">0</span></p>
+        </section>
+        <section id="gacha">
+            <button id="gacha-button">Gacha!</button>
+        </section>
+        <section id="filters">
+            <h2>Filters</h2>
+            <button class="filter" data-type="all">All</button>
+            <button class="filter" data-type="rare">Rare</button>
+            <button class="filter" data-type="common">Common</button>
+        </section>
+        <section id="collection">
+            <h2>Your Collection</h2>
+            <div class="collection-grid" id="collection-grid">
+                <!-- Character cards will be inserted here -->
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
