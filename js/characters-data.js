@@ -1,0 +1,1 @@
+[\n  {"id": 1, "name": "Mario", "game": "Super Mario Bros", "role": "Hero", "rarity": "Common", "image": "path/to/mario.png"},\n  {"id": 2, "name": "Luigi", "game": "Super Mario Bros", "role": "Hero", "rarity": "Common", "image": "path/to/luigi.png"},\n  ... (more characters) ...\n]
