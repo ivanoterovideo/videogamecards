@@ -1,0 +1,41 @@
+.card {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.rarity-common {
+    background-color: #cccccc;
+    border: 2px solid #aaaaaa;
+}
+
+.rarity-rare {
+    background-color: #00cc00;
+    border: 2px solid #009900;
+}
+
+.rarity-epic {
+    background-color: #0000ff;
+    border: 2px solid #000099;
+}
+
+.rarity-legendary {
+    background-color: #ffcc00;
+    border: 2px solid #ffaa00;
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: 90%;
+        height: auto;
+    }
+}
